@@ -1,0 +1,49 @@
+1.cd Desktop
+2.git clone https://github.com/youngN5/SI_2022_lab1_193110.git
+3.cd SI_2022_lab1_193110	
+4.notepad shopping_list.txt
+5.git add .
+6.git commit shopping_list.txt -m "Add items to the shopping lst"
+7.notepad shopping_list.txt
+8.git add .
+9.git commit shopping_list.txt -m "Add quantites to the items"
+10.git branch branch1
+11.git branch branch2
+12.git log --oneline
+553d599 (HEAD -> master, branch2, branch1) Add quantities to the items
+a7bd78d Add 5 items to the shopping list
+3170fa1 (origin/master, 
+13.git push --all origin
+14.git checkout branch1
+15.notepad shopping_list.txt
+16.git add .
+17.git commit shopping_list.txt -m "Change quantity of item #5"
+18.git checkout master
+19.notepad shopping_list.txt
+20.git add .
+21.git commit shopping_list.txt -m "Change quantity of item #2"
+22.git push --all orign
+23.git checkout branch2
+24.notepad shopping_list.txt
+25.git add .
+26.notepad shopping_list
+27.git add .
+28.git commit shopping_list.txt -m "Modify item #4"
+29.notepad shopping_list.txt
+30.git add .
+31.git commit --amend shopping_list.txt -m "Modify item #4 and add item #6"
+32.git log --oneline
+0ca95e8 (HEAD -> branch2) Modify item #4 and add item #6
+553d599 (origin/branch2) Add quantities to the items
+a7bd78d Add 5 items to the shopping list
+3170fa1 Update README.md
+ace4ca0 Initial commit
+33.git checkout master
+34.git merge branch1
+- Тука немаше конфликт, спојувањето се направи со ort стратегијата
+35.git merge branch2
+- Тука се појави конфликт, кој го решив со бришење на содржината на втората гранка односно branch2
+36.git add shopping_list.txt
+37.git commit -i shopping_list.txt "Conflict solution"
+
+
