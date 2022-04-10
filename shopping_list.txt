@@ -1,5 +1,8 @@
 Eggs x1
 Bread x20
 Milk x3
+<<<<<<< HEAD
 Peanut butter x4
 Jelly x50
+=======
+>>>>>>> branch2
