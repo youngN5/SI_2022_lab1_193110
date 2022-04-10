@@ -1,5 +1,5 @@
-Eggs
-Bread
-Milk
-Peanut butter
-Jelly
+Eggs x1
+Bread x2 
+Milk x3
+Peanut butter x4
+Jelly x5
