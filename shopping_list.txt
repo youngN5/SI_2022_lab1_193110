@@ -1,5 +1,5 @@
 Eggs x1
-Bread x2 
+Bread x20
 Milk x3
 Peanut butter x4
 Jelly x5
