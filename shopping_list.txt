@@ -2,4 +2,4 @@ Eggs x1
 Bread x20
 Milk x3
 Peanut butter x4
-Jelly x5
+Jelly x50
