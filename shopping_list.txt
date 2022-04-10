@@ -1,5 +1,6 @@
 Eggs x1
 Bread x2 
 Milk x3
-Peanut butter x4
+Nutella x4
 Jelly x5
+Shower gel x6
